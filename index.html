@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball ScoreKeeper</title>
+    <link rel="stylesheet" href="basketball-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home-container">
+            <h3 class="home-title">HOME</h3>
+            <div class="home-score">
+                <p id="home-points-text">0</p>
+            </div>
+            <div class="add-points-btns-container">
+                <div class="plus-point-container">
+                    <p class="points" id="plus-one-home" onclick="add1Home()">+1</p>
+                </div>
+                <div class="plus-point-container">
+                    <p class="points" id="plus-two-home" onclick="add2Home()">+2</p>
+                </div>
+                <div class="plus-point-container">
+                    <p class="points" id="plus-three-home" onclick="add3Home()">+3</p>
+                </div>
+            </div>
+        </div>
+        <div class="guest-container">
+            <h3 class="home-title">GUEST</h3>
+            <div class="home-score">
+                <p id="guest-points-text">0</p>
+            </div>
+            <div class="add-points-btns-container">
+                <div class="plus-point-container">
+                    <p class="points" id="plus-one-guest" onclick="add1Guest()">+1</p>
+                </div>
+                <div class="plus-point-container">
+                    <p class="points" id="plus-two-guest"onclick="add2Guest()">+2</p>
+                </div>
+                <div class="plus-point-container">
+                    <p class="points" id="plus-three-guest" onclick="add3Guest()">+3</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <button id="new-game-button" onclick="startNewGame()">New Game</button>
+    <script src="basketball-js.js"> </script>
+</body>
+</html>
