@@ -1,50 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basketball ScoreKeeper</title>
-    <link rel="stylesheet" href="basketball-styles.css">
+    <title>Julie Napear | Business Card</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Birthstone&family=Calligraffitti&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Petemoss&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Square+Peg&family=Whisper&family=Zen+Loop&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d06af126b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="home-container">
-            <h3 class="home-title">HOME</h3>
-            <div class="home-score">
-                <p id="home-points-text">0</p>
+    <main class="container">
+        <img src="images/julie-napear-cutout.png" alt="Julie holding a camera" id="julie-image">
+        <div id="upper-container">
+            <div id="title-text">
+                <h1 id="name">Julie Napear</h1>
+                <h2 id="job-title">Web Developer | Photographer</h2>
             </div>
-            <div class="add-points-btns-container">
-                <div class="plus-point-container">
-                    <p class="points" id="plus-one-home" onclick="add1Home()">+1</p>
-                </div>
-                <div class="plus-point-container">
-                    <p class="points" id="plus-two-home" onclick="add2Home()">+2</p>
-                </div>
-                <div class="plus-point-container">
-                    <p class="points" id="plus-three-home" onclick="add3Home()">+3</p>
-                </div>
+            <div id="websites-text">
+                <p><a href="https://www.linkedin.com/in/julie-napear/" class="website"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> | <a href="https://github.com/jnpwebdesign/" class="website"><i class="fa-brands fa-github"></i> GitHub</a></p>
+                <p><a href="https://www.julienapearphotography.com" class="website">Julie Napear Photography</a></p>
             </div>
         </div>
-        <div class="guest-container">
-            <h3 class="home-title">GUEST</h3>
-            <div class="home-score">
-                <p id="guest-points-text">0</p>
-            </div>
-            <div class="add-points-btns-container">
-                <div class="plus-point-container">
-                    <p class="points" id="plus-one-guest" onclick="add1Guest()">+1</p>
-                </div>
-                <div class="plus-point-container">
-                    <p class="points" id="plus-two-guest"onclick="add2Guest()">+2</p>
-                </div>
-                <div class="plus-point-container">
-                    <p class="points" id="plus-three-guest" onclick="add3Guest()">+3</p>
-                </div>
-            </div>
-        </div>    
-    </div>
-    <button id="new-game-button" onclick="startNewGame()">New Game</button>
-    <script src="basketball-js.js"> </script>
+        <div id="lower-container">
+            <p class="contact-info"><a href="mailto:julie.napear@gmail.com?subject=Found Your Business Card">julie.napear@gmail.com</a> | <a href="tel:+17035057959"> 703-505-7959</a> | DC Metro/Remote</p>
+
+        </div>
+    </main>
 </body>
+
 </html>
